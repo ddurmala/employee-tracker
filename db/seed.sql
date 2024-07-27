@@ -28,6 +28,10 @@ INSERT INTO employees (
     ('Skylar', 'Olsen', 3, 2),
     ('Sara', 'Brown', 4, 2),
     ('Justine', 'Reber', 5, 2),
-    ('Alex', 'Madson', 6, 2);
+    ('Alex', 'Madson', 6, 2),
+    ('Julie', 'Ann', 7, 2),
+    ('Levon', 'Benjamin', 8, 2),
+    ('Shea', 'Violet', 9, 2),
+    ('Nick', 'Graham', 10, 2);
 
 
