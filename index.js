@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-const client = require('./db/connections');
+const pool = require('./db/connections');
 
 
 const handleViewOptions = require('./lib/view-menu');
@@ -12,7 +12,7 @@ const handleUpdateOptions = require('./lib/update-menu');
 
 async function init() {
 
-    await client.connect();
+    await pool.connect();
 
     console.log(`
         ---------------------------
@@ -59,12 +59,12 @@ async function init() {
             console.log('exit');
             break;
     }
-    await client.end();
+    await pool.end();
 };
 
 init();
 
-module.exports = init;
+// module.exports = init;
 
 
 
