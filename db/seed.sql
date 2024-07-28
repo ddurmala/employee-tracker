@@ -21,17 +21,18 @@ INSERT INTO employees (
     first_name, 
     last_name, 
     role_id, 
-    manager_id
+    manager_id,
+    is_manager
     ) VALUES 
-    ('Kevin', 'Durmala', 1, null),
-    ('Lynn', 'Nuccio', 2, null),
-    ('Skylar', 'Olsen', 3, 2),
-    ('Sara', 'Brown', 4, 2),
-    ('Justine', 'Reber', 5, 2),
-    ('Alex', 'Madson', 6, 2),
-    ('Julie', 'Ann', 7, 2),
-    ('Levon', 'Benjamin', 8, 2),
-    ('Shea', 'Violet', 9, 2),
-    ('Nick', 'Graham', 10, 2);
+    ('Kevin', 'Durmala', 1, null, true),
+    ('Lynn', 'Nuccio', 2, null, true),
+    ('Skylar', 'Olsen', 3, 2, false),
+    ('Sara', 'Brown', 4, 2, false),
+    ('Justine', 'Reber', 5, 2, false),
+    ('Alex', 'Madson', 6, 2, false),
+    ('Julie', 'Ann', 7, 2, false),
+    ('Levon', 'Benjamin', 8, 2, false),
+    ('Shea', 'Violet', 9, 2, false),
+    ('Nick', 'Graham', 10, 2, false);
 
 

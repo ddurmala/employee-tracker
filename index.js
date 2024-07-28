@@ -30,7 +30,7 @@ async function init() {
             value: 'add'
         },
         {
-            name: 'UPDATE an employee\'s role',
+            name: 'UPDATE',
             value: 'update'
         },
         {
