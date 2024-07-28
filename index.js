@@ -5,7 +5,7 @@ const pool = require('./db/connections');
 
 const handleViewOptions = require('./lib/view-menu');
 const handleAddOptions = require('./lib/add-menu');
-const handleUpdateOptions = require('./lib/update-menu');
+const UpdateSubset = require('./lib/update-menu');
 
 
 // const { default: Choices } = require('inquirer/lib/objects/choices');
@@ -53,10 +53,10 @@ async function init() {
             await handleAddOptions(init);
             break;
         case 'update':
-            await handleUpdateOptions(init);
+            await UpdateSubset.handleUpdateOptions(init);
             break;
         case 'exit':
-            console.log('exit');
+            process.exit(0);
             break;
     }
     await pool.end();
