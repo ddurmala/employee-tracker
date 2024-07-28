@@ -57,10 +57,11 @@ async function init() {
             break;
         case 'exit':
             process.exit(0);
-            break;
     }
-    await pool.end();
+
 };
+
+
 
 init();
 
