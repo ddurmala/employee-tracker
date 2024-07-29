@@ -6,13 +6,15 @@ This application uses command line interface Employee Tracker.  Users can view d
 
 ## Installation 
 
-website can be accessed at: https://github.com/ddurmala/svg-logo-maker
+website can be accessed at: https://github.com/ddurmala/sql-employee-tracker
 
 ## Usage
 
-video link: https://drive.google.com/file/d/1-9GCXymCsOOzsxUKYR58uVpOXjT4ljwG/view?usp=sharing
+video link: https://drive.google.com/file/d/1tKbvLVWkRqQlBE2kOVZJpDbFyHfDWLRE/view?usp=sharing
 
-![Screenshot](./images/example-logos.png)
+![Screenshot](./images/sql-employ-trkr-ss1.png)
+![Screenshot](./images/sql-employ-trkr-ss2.png)
+
 
 ## Credits
 
