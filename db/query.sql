@@ -12,3 +12,13 @@ LEFT JOIN roles ON employees.role_id = roles.id
 LEFT JOIN employees AS manager ON employees.manager_id = manager.id
 LEFT JOIN departments ON roles.department_id = departments.id
 ORDER BY employees.id;
+
+SELECT 
+    roles.id,
+    roles.role_title,
+    roles.salary,
+    departments.dept_name
+FROM
+    roles
+LEFT JOIN departments ON roles.department_id = departments.id
+ORDER BY roles.id;

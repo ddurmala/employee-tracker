@@ -59,7 +59,7 @@ async function init() {
             process.exit(0);
             break;
     }
-    await pool.end();
+
 };
 
 init();
